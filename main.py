@@ -1,6 +1,6 @@
 class Piece:
     def __init__(self, name, color):
-        self.name = name  # p.ej. 'Pawn', 'King', etc.
+        self.name = name  # p.ej. 'Pawn', 'King'
         self.color = color  # 'white' o 'black'
 
     def __repr__(self):
